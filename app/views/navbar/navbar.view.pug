@@ -1,18 +1,15 @@
-#navbar-header.navbar-collapse.collapse.inverse
-  .container-fluid
-    .about
-      h4 About
-      p.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    .social
-      h4 Contact
-      ul.list-unstyled
-        li
-          a(href='#') LinkedIn
-        li
-          a(href='#') GitHub
-        li
-          a(href='#') Email
-.navbar.navbar-static-top.navbar-dark.bg-inverse
-  .container-fluid
-    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar-header') ☰
-    a.navbar-brand(href='#/') Home
+nav.navbar.navbar-light.bg-faded
+	.container
+		ul.nav.navbar-nav
+			li.nav-item.active
+				a.nav-link(href='#')
+					| Home
+					span.sr-only (current)
+			li.nav-item
+				a.nav-link(href='#') ABOUT
+			li.nav-item
+				a.nav-link(href='#') EDUCATION
+			li.nav-item
+				a.nav-link(href='#') WORK
+			li.nav-item
+				a.nav-link(href='#') PROJECTS
