@@ -1,5 +1,5 @@
 body {
-		min-height: 75rem;
+		/*min-height: 75rem;*/
 		/* Can be removed; just added for demo purposes */
 }
 .navbar {
@@ -30,8 +30,11 @@ body {
 .jumbotron {
 		padding-top: 6rem;
 		padding-bottom: 6rem;
-		margin-bottom: 0;
-		background-color: #fff;
+		margin-bottom: 0 !important;
+		background-color: #fafafa !important;
+		border-bottom-color: rgba(0, 0, 0, 0.1);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
 }
 .jumbotron p:last-child {
 		margin-bottom: 0;
@@ -47,7 +50,10 @@ body {
 		/* Can be removed; just added for demo purposes */
 		padding-top: 3rem;
 		padding-bottom: 3rem;
-		background-color: #f7f7f7;
+		/*background-color: #f7f7f7;*/
+		border-bottom-color: rgba(0, 0, 0, 0.1);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
 }
 /*.card {
 		float: left;
@@ -69,4 +75,18 @@ footer {
 }
 footer p {
 		margin-bottom: .25rem;
+}
+
+nav{
+	min-height:64px;
+	background-color: #3F51B5 !important;
+}
+
+.navbar-nav .nav-link{
+	color: #ffffff !important;
+}
+.navbar-nav .nav-link:hover{
+	color: #ffffff !important;
+	opacity: 0.7;
+
 }
