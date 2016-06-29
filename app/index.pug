@@ -33,6 +33,13 @@ html(lang='en', ng-app='personal-website')
 
 	body
 		div(ng-include="'views/navbar/navbar.view.html'")
+		div(id="particles-js")
+			.jumbotron.jumbotron-fluid.text-xs-center
+				.container
+					h1.jumbotron-heading Andrew Martone
+					p.lead Software Developer
+					p
+						a.btn.btn-secondary.btn-raised Get in touch
 		ng-view
 		div(ng-include="'views/footer/footer.view.html'")
 
@@ -57,4 +64,5 @@ html(lang='en', ng-app='personal-website')
 
 		//- // Custom JS
 		//- script(src='scripts/bootstrap.min.js')
-		//- script(src='scripts/all.min.js')
+		script(src='scripts/particles.js')
+		script(src='scripts/app.js')
