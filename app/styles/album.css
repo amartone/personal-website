@@ -118,6 +118,7 @@ canvas {
 	vertical-align: bottom;
 	position: absolute;
 	/*top: 0;*/
+	height:275px !important;
 }
 
 /* ---- particles.js container ---- */
