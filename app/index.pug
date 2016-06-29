@@ -34,12 +34,12 @@ html(lang='en', ng-app='personal-website')
 	body
 		div(ng-include="'views/navbar/navbar.view.html'")
 		div(id="particles-js")
-			.jumbotron.jumbotron-fluid.text-xs-center
-				.container
-					h1.jumbotron-heading Andrew Martone
-					p.lead Software Developer
-					p
-						a.btn.btn-secondary.btn-raised Get in touch
+		.jumbotron.jumbotron-fluid.text-xs-center
+			.container
+				h1.jumbotron-heading Andrew Martone
+				p.lead Software Developer
+				p
+					a.btn.btn-secondary.btn-raised Get in touch
 		ng-view
 		div(ng-include="'views/footer/footer.view.html'")
 
@@ -64,5 +64,8 @@ html(lang='en', ng-app='personal-website')
 
 		//- // Custom JS
 		//- script(src='scripts/bootstrap.min.js')
+		script(src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js')
+		script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/188512/MousePositionMonitor.js')
 		script(src='scripts/particles.js')
 		script(src='scripts/app.js')
+		script(src='scripts/index.js')
