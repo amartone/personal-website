@@ -1,6 +1,7 @@
 body {
 		/*min-height: 75rem;*/
 		/* Can be removed; just added for demo purposes */
+		background-color: #E8EAF6 !important;
 }
 .navbar {
 		margin-bottom: 0;
@@ -53,10 +54,12 @@ body {
 		/*min-height: 50rem;*/
 		/* Can be removed; just added for demo purposes */
 		padding-bottom: 3rem;
-		/*background-color: #f7f7f7;*/
+		/*background-color: #E8EAF6;*/
 		border-bottom-color: rgba(0, 0, 0, 0.1);
 		border-bottom-width: 1px;
 		border-bottom-style: solid;
+
+
 }
 /*.card {
 		float: left;
@@ -67,7 +70,16 @@ body {
 }*/
 .card > img {
 		margin-bottom: .75rem;
-		height:150px;
+		/*height:150px;*/
+		/*width:250px;
+		height:auto;*/
+}
+
+
+a.card{
+
+	padding-left:25px;
+	padding-right:25px;
 }
 /*.card-text {
 		font-size: 85%;

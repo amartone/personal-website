@@ -1,12 +1,11 @@
-section.album
+section.album(ng-controller="WorkCardController")
 	.container
 		.row
 			h2.section-title WORK
 		.row
 			.card-deck.m-x-auto
-				work-card
-				work-card
-				work-card
+				work-card(ng-repeat="card in model.workCards")
+
 
 section.album
 	.container
@@ -14,9 +13,7 @@ section.album
 			h2.section-title PROJECTS
 		.row
 			.card-deck.m-x-auto
-				work-card
-				work-card
-				work-card
+				work-card(ng-repeat="card in model.workCards")
 
 section.education
 	.container
@@ -32,7 +29,7 @@ section.education
 					i.material-icons computer
 					.bmd-list-group-col
 						p.list-group-item-heading Degree
-						p.list-group-item-text Bachelor of Science in Computer Engineering
+						p.list-group-item-text Bachelor of Science in Computer Engineering, Minor in Computer Science
 				li.list-group-item
 					i.material-icons create
 					.bmd-list-group-col
