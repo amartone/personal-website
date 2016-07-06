@@ -6,6 +6,10 @@ var vm = this;
 
 	vm.workCards = [
 		{
+			"title": "Spotlight",
+			"image": "/images/spotlight-logo.png"
+		},
+		{
 			"title": "Amazon",
 			"image": "/images/amazon-250px.png"
 		},
