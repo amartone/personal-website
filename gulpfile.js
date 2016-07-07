@@ -89,9 +89,9 @@ gulp.task('bootstrap-scripts', function() {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-		return gulp.src(['app/scripts/particles.js','app/scripts/app.js'])
+		return gulp.src(['app/scripts/particles.js','app/scripts/app.js', 'app/scripts/matrix-text.js'])
 				// .pipe(concat('all.min.js'))
-				// .pipe(uglify())
+				.pipe(uglify())
 				.pipe(gulp.dest('dist/scripts/'));
 });
 

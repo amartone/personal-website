@@ -100,7 +100,7 @@ footer{
 		background-color: #303F9F !important;
 }
 
-footer ul.credits li, p{
+footer ul.credits li, footer ul.credits p{
 	font-family: "Roboto Mono";
 	font-weight:400;
 	padding-bottom:0px;
