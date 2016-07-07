@@ -100,6 +100,38 @@ footer{
 		background-color: #303F9F !important;
 }
 
+footer ul.credits li, p{
+	font-family: "Roboto Mono";
+	font-weight:400;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+footer ul.powered h2{
+	font-size:30px;
+	font-family: 'Roboto' !important;
+	font-weight: 900 !important;
+	color: #FFFFFF;
+	border-bottom-style:solid;
+	border-bottom-color:#FFFFFF;
+	border-bottom-width:5px;
+
+}
+
+footer ul.powered h3{
+	font-size:20px;
+	font-family: 'Roboto Mono' !important;
+	font-weight: 100 !important;
+	color: #FFFFFF;
+
+	}
+
+	footer ul.powered li.powered-by{
+		padding-bottom:0px;
+		padding-top:0px;
+	}
+
+
+
 nav{
 	min-height:64px;
 	background-color: #3F51B5 !important;
