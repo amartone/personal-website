@@ -5,6 +5,7 @@ body {
 }
 .navbar {
 		margin-bottom: 0;
+		background-color: #303F9F !important;
 }
 .navbar-collapse .container-fluid {
 		padding: 2rem 2.5rem;
@@ -51,7 +52,7 @@ body {
 .jumbotron .container {
 		max-width: 40rem;
 }*/
-.album {
+.album, .education {
 		/*min-height: 50rem;*/
 		/* Can be removed; just added for demo purposes */
 		padding-bottom: 3rem;
@@ -85,13 +86,18 @@ a.card{
 }*/
 footer li.list-group-item {
 		/*padding-top: 3rem;*/
-		padding-bottom: 3rem;
+		/*padding-bottom: 3rem;*/
 		/*background-color: #009688;
 		color: white;*/
 }
 
 footer p {
 		margin-bottom: .25rem;
+}
+
+footer{
+
+		background-color: #303F9F !important;
 }
 
 nav{
@@ -128,6 +134,11 @@ h1.jumbotron-heading{
 
 p.lead{
 	font-weight:500;
+	border: black;
+	border-width: 10px;
+	display: -webkit-inline-box;
+	border-style: solid;
+	background-color: black;
 }
 
 /*.img-big{
@@ -159,4 +170,17 @@ canvas {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
+}
+
+.text {
+	font-family: 'Roboto Mono'
+	font-weight: 100;
+	font-size: 300px;
+	color: #20C20E !important;
+
+}
+
+.dud{
+	color:#20C20E !important
+
 }
