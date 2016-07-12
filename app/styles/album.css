@@ -106,8 +106,8 @@ footer ul.credits li, footer ul.credits p{
 	padding-bottom:0px;
 	padding-top:0px;
 }
-footer ul.powered h2{
-	font-size:30px;
+footer ul.powered h2, footer ul.find-me-on h2{
+	font-size:20px;
 	font-family: 'Roboto' !important;
 	font-weight: 900 !important;
 	color: #FFFFFF;
@@ -118,7 +118,7 @@ footer ul.powered h2{
 }
 
 footer ul.powered h3{
-	font-size:20px;
+	font-size:15px;
 	font-family: 'Roboto Mono' !important;
 	font-weight: 100 !important;
 	color: #FFFFFF;
@@ -130,6 +130,10 @@ footer ul.powered h3{
 		padding-top:0px;
 	}
 
+	footer ul.find-me-on > li{
+		padding-bottom:0px;
+		/*padding-top:0px;*/
+	}
 
 
 nav{
