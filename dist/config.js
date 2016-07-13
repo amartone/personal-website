@@ -8,8 +8,6 @@
 app.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
-			templateUrl: 'views/home/home.view.html',
-			controller: 'WorkCardController',
-			controllerAs: 'model'
+			templateUrl: 'views/home/home.view.html'
 		});
 });
