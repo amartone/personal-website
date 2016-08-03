@@ -52,7 +52,7 @@ body {
 .jumbotron .container {
 		max-width: 40rem;
 }*/
-.album, .education {
+.album, .education, .aboutme {
 		/*min-height: 50rem;*/
 		/* Can be removed; just added for demo purposes */
 		padding-bottom: 3rem;

@@ -109,7 +109,7 @@ gulp.task('pug-index', function() {
 				.pipe(gulp.dest('dist/'));
 });
 
-// Copy Index and de-Pug
+// Copy directives and de-Pug
 gulp.task('pug-directives', function() {
 		return gulp.src('app/directives/**/*.pug')
 				.pipe(pugify())
