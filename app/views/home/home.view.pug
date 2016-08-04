@@ -13,7 +13,11 @@ section.album(ng-controller="ProjectCardController as model")
 			h2.section-title PROJECTS
 		.row
 			.card-deck.m-x-auto
-				project-card(ng-repeat="card in model.projectCards")
+				project-card(ng-repeat="card in model.projectCardsRow1")
+		.row
+			.card-deck.m-x-auto
+				project-card(ng-repeat="card in model.projectCardsRow2")
+
 
 section.education
 	.container
