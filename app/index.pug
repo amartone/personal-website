@@ -19,7 +19,7 @@ html(lang='en', ng-app='personal-website')
 		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900')
 		link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
 		// Material Design for Bootstrap
-		link(rel='stylesheet', href='https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css')
+		//- link(rel='stylesheet', href='https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css')
 
 
 		// Fonts and icons
@@ -38,7 +38,7 @@ html(lang='en', ng-app='personal-website')
 		.jumbotron.jumbotron-fluid.text-xs-center
 			.container
 				h1.jumbotron-heading Andrew Martone
-				p.lead.text
+				//- p.lead.text
 				p
 					a.btn.btn-secondary.btn-raised Get in touch
 		ng-view
@@ -64,7 +64,7 @@ html(lang='en', ng-app='personal-website')
 			$('body').bootstrapMaterialDesign()
 
 		//- // Custom JS
-		//- script(src='scripts/bootstrap.min.js')
+		script(src='scripts/bootstrap.min.js')
 		script(src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js')
 		script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/188512/MousePositionMonitor.js')
 		script(src='scripts/particles.js')

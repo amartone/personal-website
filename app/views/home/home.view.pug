@@ -3,8 +3,9 @@ section.album(ng-controller="WorkCardController as model")
 		.row
 			h2.section-title WORK
 		.row
-			.card-deck.m-x-auto
-				work-card(ng-repeat="card in model.workCards")
+			.card-deck-wrapper
+				.card-deck
+					work-card(ng-repeat="card in model.workCards")
 
 
 section.album(ng-controller="ProjectCardController as model")
@@ -12,11 +13,13 @@ section.album(ng-controller="ProjectCardController as model")
 		.row
 			h2.section-title PROJECTS
 		.row
-			.card-deck.m-x-auto
-				project-card(ng-repeat="card in model.projectCardsRow1")
-		.row
-			.card-deck.m-x-auto
-				project-card(ng-repeat="card in model.projectCardsRow2")
+			.card-deck-wrapper
+				.card-deck
+					project-card(ng-repeat="card in model.projectCardsRow1")
+		.row(style="padding-top:15px;")
+			.card-deck-wrapper
+				.card-deck
+					project-card(ng-repeat="card in model.projectCardsRow2")
 
 
 section.education
@@ -24,28 +27,25 @@ section.education
 		.row
 			h2.section-title EDUCATION
 		.row
+			.col-xs-12
+				img.img-fluid(style="height: 80px; width: auto;", src="/images/nulogo.png")
+		.row
 			.col-xs-6
-				.education-photo.m-x-auto
+				.education-photo
 					img.img-thumbnail.img-fluid(src="/images/nu-night-700px.jpg")
 			.col-xs-6
-				img.img-fluid(style="width: 480px; height:auto;", src="/images/nulogo.png")
-
-				ul.list-group
+				ul.list-group.card-text
 					li.list-group-item
-						.bmd-list-group-col
-							p.list-group-item-heading Degree
+							h5.list-group-item-heading Degree
 							p.list-group-item-text Bachelor of Science in Computer Engineering, Minor in Computer Science
 					li.list-group-item
-						.bmd-list-group-col
-							p.list-group-item-heading Favorite classes
+							h5.list-group-item-heading Favorite classes
 							p.list-group-item-text Object-Oriented Design, Database Design, Web Development, Wireless Sensor Networks, Optimization Methods (I and II), Software Project Management
 					li.list-group-item
-						.bmd-list-group-col
-							p.list-group-item-heading Activities
+							h5.list-group-item-heading Activities
 							p.list-group-item-text Founding Father of Zeta Beta Tau fraternity (Gamma Psi Chapter), semester study abroad in London, UK.
 					li.list-group-item
-						.bmd-list-group-col
-							p.list-group-item-heading Honors
+							h5.list-group-item-heading Honors
 							p.list-group-item-text Deans List (Spring ‘15, '16'), Harry and Frances Keegan Scholarship (‘15)
 section.aboutme
 	.container

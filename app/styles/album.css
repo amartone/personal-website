@@ -111,9 +111,9 @@ footer ul.powered h2, footer ul.find-me-on h2{
 	font-family: 'Roboto' !important;
 	font-weight: 900 !important;
 	color: #FFFFFF;
-	border-bottom-style:solid;
+	/*border-bottom-style:solid;
 	border-bottom-color:#FFFFFF;
-	border-bottom-width:5px;
+	border-bottom-width:5px;*/
 
 }
 
@@ -126,12 +126,12 @@ footer ul.powered h3{
 	}
 
 	footer ul.powered li.powered-by{
-		padding-bottom:0px;
-		padding-top:0px;
+		/*padding-bottom:0px;
+		padding-top:0px;*/
 	}
 
 	footer ul.find-me-on > li{
-		padding-bottom:0px;
+		/*padding-bottom:0px;*/
 		/*padding-top:0px;*/
 	}
 
