@@ -34,13 +34,13 @@ html(lang='en', ng-app='personal-website')
 
 	body
 		div(ng-include="'views/navbar/navbar.view.html'")
-		div(id="particles-js")
+		#particles-js
 		.jumbotron.jumbotron-fluid.text-xs-center
-			.container
-				h1.jumbotron-heading Andrew Martone
-				//- p.lead.text
-				p
-					a.btn.btn-secondary.btn-raised Get in touch
+				.container
+					h1.jumbotron-heading Andrew Martone
+					//- p.lead.text
+					p
+						//- a.btn.btn-secondary.btn-raised Get in touch
 		ng-view
 		div(ng-include="'views/footer/footer.view.html'")
 
