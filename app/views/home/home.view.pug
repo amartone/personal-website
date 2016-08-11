@@ -7,7 +7,6 @@ section.album(id="work" ng-controller="WorkCardController as model")
 				.card-deck
 					work-card(ng-repeat="card in model.workCards")
 
-
 section.album(id="projects" ng-controller="ProjectCardController as model")
 	.container
 		.row
@@ -19,7 +18,7 @@ section.album(id="projects" ng-controller="ProjectCardController as model")
 		.row(style="padding-top:15px;")
 			.card-deck-wrapper
 				.card-deck
-					project-card(ng-repeat="card in model.projectCardsRow2")
+						project-card(ng-repeat="card in model.projectCardsRow2")
 
 
 section.education(id="education")

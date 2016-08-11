@@ -1,3 +1,16 @@
+/*.row > div[class*='col-'].test {
+	display: flex;
+	flex: 1 0 auto;
+}*/
+
+/*.card {
+	width: 100%;
+}*/
+
+.card{
+	width:100%;
+}
+
 body {
 		/*min-height: 75rem;*/
 		/* Can be removed; just added for demo purposes */
@@ -34,6 +47,10 @@ h1.jumbotron-heading{
 		color: white;
 		font-weight:500;
 	}
+
+	h4.card-title{
+		font-size:15px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -41,6 +58,10 @@ h1.jumbotron-heading{
 		font-size: 10px;
 		color: white;
 		font-weight:500;
+	}
+
+	h4.card-title{
+		font-size:15px;
 	}
 }
 
@@ -70,11 +91,10 @@ h1.jumbotron-heading{
 		border-bottom-style: solid;
 }
 
-.card > img {
+/*.card > img {
 		margin-bottom: .75rem;
-}
-
-a.card{
+}*/
+img.card-img-top.img-fluid{
 	padding-left:25px;
 	padding-right:25px;
 	padding-top:10px;
