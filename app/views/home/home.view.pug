@@ -1,4 +1,4 @@
-section.album(id="work" ng-controller="WorkCardController as model")
+section.work(id="work" ng-controller="WorkCardController as model")
 	.container
 		.row
 			h2.section-title WORK
@@ -7,7 +7,7 @@ section.album(id="work" ng-controller="WorkCardController as model")
 				.card-deck
 					work-card(ng-repeat="card in model.workCards")
 
-section.album(id="projects" ng-controller="ProjectCardController as model")
+section.projects(id="projects" ng-controller="ProjectCardController as model")
 	.container
 		.row
 			h2.section-title PROJECTS

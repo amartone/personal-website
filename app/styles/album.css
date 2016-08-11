@@ -81,10 +81,13 @@ h1.jumbotron-heading{
 	}
 }
 
-.album, .education, .aboutme {
+.work, .education, .projects, .aboutme {
 		/*min-height: 50rem;*/
 		/* Can be removed; just added for demo purposes */
 		padding-bottom: 3rem;
+		padding-top: 50px;
+		margin-top:-50px;
+
 		/*background-color: #E8EAF6;*/
 		border-bottom-color: rgba(0, 0, 0, 0.1);
 		border-bottom-width: 1px;
