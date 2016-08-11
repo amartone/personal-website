@@ -1,6 +1,7 @@
 doctype html
 html(lang='en', ng-app='personal-website')
 	head
+		<base href="/#">
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 		meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no', name='viewport')
@@ -32,15 +33,15 @@ html(lang='en', ng-app='personal-website')
 			script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
 
 
-	body
-		div(ng-include="'views/navbar/navbar.view.html'")
-		#particles-js
-		.jumbotron.jumbotron-fluid.text-xs-center
+	body(data-spy="scroll" data-target=".navbar" data-offset="50")
+		ng-include(src="'views/navbar/navbar.view.html'")
+		//- #particles-js
+		.jumbotron.jumbotron-fluid.text-xs-center(id="home")
 				.container
 					h1.jumbotron-heading Andrew Martone
 					p.lead.text
 		ng-view
-		div(ng-include="'views/footer/footer.view.html'")
+		ng-include(src="'views/footer/footer.view.html'")
 
 		// Angular
 		script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js')
