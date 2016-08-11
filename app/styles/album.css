@@ -16,6 +16,7 @@ body {
 		/* Can be removed; just added for demo purposes */
 		background-color: #E8EAF6 !important;
 		position: relative;
+		padding-top:50px;
 }
 
 .navbar {
