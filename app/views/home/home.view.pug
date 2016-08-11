@@ -1,4 +1,4 @@
-section.album(ng-controller="WorkCardController as model")
+section.album(id="work" ng-controller="WorkCardController as model")
 	.container
 		.row
 			h2.section-title WORK
@@ -8,7 +8,7 @@ section.album(ng-controller="WorkCardController as model")
 					work-card(ng-repeat="card in model.workCards")
 
 
-section.album(ng-controller="ProjectCardController as model")
+section.album(id="projects" ng-controller="ProjectCardController as model")
 	.container
 		.row
 			h2.section-title PROJECTS
@@ -22,7 +22,7 @@ section.album(ng-controller="ProjectCardController as model")
 					project-card(ng-repeat="card in model.projectCardsRow2")
 
 
-section.education
+section.education(id="education")
 	.container
 		.row
 			h2.section-title EDUCATION
@@ -47,7 +47,7 @@ section.education
 					li.list-group-item
 							h5.list-group-item-heading Honors
 							p.list-group-item-text Deans List (Spring ‘15, '16'), Harry and Frances Keegan Scholarship (‘15)
-section.aboutme
+section.aboutme(id="about")
 	.container
 		.row
 			h2.section-title ABOUT ME

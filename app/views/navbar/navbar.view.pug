@@ -1,13 +1,15 @@
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top
 	.container
-		ul.nav.navbar-nav
-			li.nav-item
-				a.nav-link(href='#home') Home
-			li.nav-item
-				a.nav-link(href='#work') Work
-			li.nav-item
-				a.nav-link(href='#projects') Projects
-			li.nav-item
-				a.nav-link(href='#education') Education
-			li.nav-item
-				a.nav-link(href='#about') About
+		button.navbar-toggler.hidden-sm-up(type='button', data-toggle='collapse', data-target='#exCollapsingNavbar2', aria-controls='exCollapsingNavbar2', aria-expanded='false', aria-label='Toggle navigation') ☰
+		#exCollapsingNavbar2.collapse.navbar-toggleable-xs
+			ul.nav.navbar-nav
+				li.nav-item
+					a.nav-link(href='#home') Home
+				li.nav-item
+					a.nav-link(href='#work') Work
+				li.nav-item
+					a.nav-link(href='#projects') Projects
+				li.nav-item
+					a.nav-link(href='#education') Education
+				li.nav-item
+					a.nav-link(href='#about') About
