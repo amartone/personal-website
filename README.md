@@ -1,4 +1,4 @@
-The main goal of this repo is to build a personal website for myself and create a tool for others to do the same.
+The main goal of this project is to build a personal website for myself and create a tool for others to do the same.
 
 ## Technologies used
 - AngularJS (v. 1.5)
