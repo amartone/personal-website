@@ -1,14 +1,3 @@
-/*.row > div[class*='col-'].test {
-	display: flex;
-	flex: 1 0 auto;
-}*/
-
-/*.card {
-	width: 100%;
-}*/
-
-
-
 .card{
 	width:100%;
 }
@@ -42,7 +31,6 @@ h1.jumbotron-heading{
 	color: white;
 	font-weight:500;
 }
-
 
 @media (max-width: 544px) {
 	h1.jumbotron-heading{
@@ -84,12 +72,22 @@ h1.jumbotron-heading{
 	}
 }
 
+section h2 {
+
+	/*padding-bottom: 75px;
+	padding-top: 100px;*/
+	margin-bottom:25px;
+	/*padding-bottom:-25px;*/
+}
 .work, .education, .projects, .aboutme {
 		/*min-height: 50rem;*/
-		/* Can be removed; just added for demo purposes */
-		padding-bottom: 3rem;
+		/*padding-bottom: 75px;
+		padding-top: 100px;*/
+		/*margin-top:-100px*/
+
 		padding-top: 50px;
-		margin-top:-50px;
+		margin-top: -50px;
+		padding-bottom:50px;
 
 		/*background-color: #E8EAF6;*/
 		border-bottom-color: rgba(0, 0, 0, 0.1);
@@ -97,9 +95,6 @@ h1.jumbotron-heading{
 		border-bottom-style: solid;
 }
 
-/*.card > img {
-		margin-bottom: .75rem;
-}*/
 img.card-img-top.img-fluid{
 	padding-left:25px;
 	padding-right:25px;
@@ -112,6 +107,8 @@ footer p {
 
 footer{
 		background-color: #303F9F !important;
+		padding-top:25px;
+		padding-bottom:25px;
 }
 
 footer .credits{

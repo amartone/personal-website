@@ -35,7 +35,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-	 .demo .main-title {
+	 .particles .main-title {
 			font-size: 3em;
 	 }
 }
