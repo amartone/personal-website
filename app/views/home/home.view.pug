@@ -20,14 +20,13 @@ section.projects(id="projects" ng-controller="ProjectCardController as model")
 				.card-deck
 						project-card(ng-repeat="card in model.projectCardsRow2")
 
-
 section.education(id="education")
 	.container
 		.row
-			h2.section-title EDUCATION
+			h2.section-title() EDUCATION
 		.row
 			.col-xs-12
-				img.img-fluid(style="height: 80px; width: auto;", src="/images/nulogo.png")
+				img.img-fluid(style="height: 80px; width: auto;", src="/images/nulogo.png" )
 		.row
 			.col-xs-6
 				.education-photo
