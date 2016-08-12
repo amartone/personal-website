@@ -7,6 +7,8 @@
 	width: 100%;
 }*/
 
+
+
 .card{
 	width:100%;
 }
@@ -143,11 +145,11 @@ p.lead{
 }
 
 canvas {
-	display: block;
+	/*display: block;
 	vertical-align: bottom;
-	position: absolute;
+	position: absolute;*/
 	/*top: 0;*/
-	height:275px !important;
+	/*height:275px !important;*/
 }
 
 /* ---- particles.js container ---- */
