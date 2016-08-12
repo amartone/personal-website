@@ -9,7 +9,7 @@ The main goal of this repo is to build a personal website for myself and create 
 - ParticlesJS
 - Gulp
 
-## Backlog:
+## Backlog
 - Add content
 - Store data in and retrieve from Firebase
 - Add various templates
