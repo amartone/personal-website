@@ -31,12 +31,12 @@ var vm = this;
 		{
 			"title": "Fiesta Music",
 			"image": "/images/fiesta-logo.png",
-			"teamsize": "1"
+			"teamsize": "5"
 		},
 		{
 			"title": "Twitter and Stock Database",
 			"image": "/images/twitter-logo.svg",
-			"teamsize": "1"
+			"teamsize": "3"
 		}
 	];
 

@@ -1,5 +1,6 @@
 .card{
 	width:100%;
+	max-width:100px;
 }
 
 body {
@@ -39,6 +40,9 @@ h1.jumbotron-heading{
 		font-weight:500;
 	}
 
+	.card{
+		max-width:100%;
+	}
 	h4.card-title{
 		font-size:15px;
 	}
@@ -54,6 +58,9 @@ h1.jumbotron-heading{
 		font-size: 10px;
 		color: white;
 		font-weight:500;
+	}
+	.card{
+		max-width:100%;
 	}
 
 	h4.card-title{
@@ -108,6 +115,7 @@ img.card-img-top.img-fluid{
 	padding-left:25px;
 	padding-right:25px;
 	padding-top:10px;
+	/*width: 100%;*/
 }
 
 footer p {
