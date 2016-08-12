@@ -10,5 +10,5 @@ The main goal of this project is to build a personal website for myself and crea
 ## Backlog
 - Add content
 - Store data in and retrieve from Firebase
-- Use Webpack
+- Use Webpack to bundle Javascript files and other resources
 - Add various templates
