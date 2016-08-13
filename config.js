@@ -7,7 +7,7 @@
 //Set up URL routes for each controller.
 app.config(function($routeProvider, $locationProvider) {
 	$routeProvider
-		.when('/', {
+		.when('/personal-website', {
 			templateUrl: 'views/home/home.view.html'
 		});
 
