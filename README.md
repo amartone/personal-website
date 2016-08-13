@@ -4,7 +4,7 @@ The main goal of this project is to build a personal website for myself and crea
 - AngularJS (v. 1.5)
 - Bootstrap (v. 4)
 - HoverCSS
-- ParticlesJS
+- GreenSock GSAP animation library
 - Gulp
 
 ## Backlog
