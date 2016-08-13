@@ -2,3 +2,4 @@ node_modules
 app/images/resources
 dist/images/resources
 npm-debug.log
+.publish
