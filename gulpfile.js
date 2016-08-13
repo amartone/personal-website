@@ -25,7 +25,7 @@ gulp.task('deploy', function() {
 
 // Clean Task
 gulp.task('clean', function() {
-		return gulp.src(['dist/', '!dist/CNAME', '!dist/.gitignore'], {read: false})
+		return gulp.src(['dist/*', '!dist{,/CNAME}', '!dist{,/.gitignore'], {read: false})
 				.pipe(clean());
 });
 
@@ -179,4 +179,4 @@ gulp.task('serve', serve('dist'));
 
 
 // Default Task
-// gulp.task('default', sequence(['clean'], ['lint', 'scripts', 'bootstrap-styles', 'bootstrap-scripts', 'stylus', 'pug', 'pug-index', 'pug-directives', 'copy-favicon', 'copy-main', 'copy-controllers', 'copy-directives', 'copy-fonts', 'copy-images'], ['watch'], ['serve']));
+gulp.task('default', sequence(['clean'], ['lint', 'scripts', 'bootstrap-styles', 'bootstrap-scripts', 'stylus', 'pug', 'pug-index', 'pug-directives', 'copy-favicon', 'copy-main', 'copy-controllers', 'copy-directives', 'copy-fonts', 'copy-images'], ['watch'], ['serve']));
