@@ -9,10 +9,35 @@ body {
 		background-color: #E8EAF6 !important;
 		position: relative;
 		padding-top:50px;
+
+		/*pinot noir */
+		background: #4b6cb7; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
 .navbar {
-		background-color: #303F9F !important;
+		/*background-color: #303F9F !important;*/
+
+
+		/*joomla*/
+
+
+
+
+
+
+background: #141E30; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
 }
 
 a.nav-link{
@@ -106,9 +131,10 @@ section h2 {
 		padding-bottom:50px;
 
 		/*background-color: #E8EAF6;*/
-		border-bottom-color: rgba(0, 0, 0, 0.1);
+		border-bottom-color: rgba(255, 255, 255, 0.4);
 		border-bottom-width: 1px;
 		border-bottom-style: solid;
+
 }
 
 img.card-img-top.img-fluid{
@@ -123,9 +149,18 @@ footer p {
 }
 
 footer{
-		background-color: #303F9F !important;
+		/*background-color: #303F9F !important;*/
 		padding-top:25px;
 		padding-bottom:25px;
+
+
+background: #7474BF; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #7474BF , #348AC7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #7474BF , #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
 }
 
 footer .credits{
@@ -145,8 +180,11 @@ footer .powered-list{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: 900;
-	color: #424242;
+	/*color: #424242;*/
+	color: rgba(255, 255, 255, 0.9);
 	font-size: 40px;
+
+
 }
 
 p.lead{
@@ -183,4 +221,11 @@ canvas {
 	font-family: 'Roboto Mono';
 	font-weight: 100;
 	color: #20C20E !important;
+}
+
+.aboutme p{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #FFFFFF !important;
+
 }
