@@ -15,6 +15,13 @@ var order = require("gulp-order");
 var clean = require('gulp-clean');
 var serve = require('gulp-serve');
 var sequence = require('run-sequence');
+var ghPages = require('gulp-gh-pages');
+
+
+gulp.task('deploy', function() {
+	return gulp.src('dist/**/*')
+		.pipe(ghPages());
+});
 
 // Clean Task
 gulp.task('clean', function() {
